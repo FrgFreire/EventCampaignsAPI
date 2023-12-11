@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventCampaigns.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bae1dd23880dabe9f18c56bd952493d27ce25db2")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventCampaigns.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventCampaigns.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

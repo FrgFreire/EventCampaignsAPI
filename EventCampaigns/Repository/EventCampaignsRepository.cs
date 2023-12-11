@@ -29,7 +29,7 @@ namespace EventCampaigns.Repository
             {
                 using (var connection = new SqlConnection(_connectionString))
                 {
-                    using (var command = new SqlCommand("StoredProcedureName", connection))
+                    using (var command = new SqlCommand("GetEventCampaignById", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
                         
@@ -94,7 +94,7 @@ namespace EventCampaigns.Repository
             {
                 using (var connection = new SqlConnection(_connectionString))
                 {
-                    using (var command = new SqlCommand("StoredProcedureName", connection))
+                    using (var command = new SqlCommand("GetAllEventCampaigns", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
 

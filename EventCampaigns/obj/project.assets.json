@@ -1003,11 +1003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaigns\\EventCampaigns.csproj",
+      "projectUniqueName": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj",
       "projectName": "EventCampaigns",
-      "projectPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaigns\\EventCampaigns.csproj",
+      "projectPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj",
       "packagesPath": "C:\\Users\\Askblue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaigns\\obj\\",
+      "outputPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

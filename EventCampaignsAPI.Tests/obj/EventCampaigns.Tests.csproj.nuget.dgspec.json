@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj": {}
+    "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj": {
+    "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj",
         "projectName": "EventCampaigns.Tests",
-        "projectPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj",
+        "projectPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaignsAPI.Tests\\EventCampaigns.Tests.csproj",
         "packagesPath": "C:\\Users\\Askblue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaignsAPI.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaignsAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,7 +32,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj": {
+                "projectPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -78,6 +82,83 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj",
+        "projectName": "EventCampaigns",
+        "projectPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj",
+        "packagesPath": "C:\\Users\\Askblue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Askblue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repository.ageas.pt:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kmFiWojhvbGd4fEgi7szgcE1kj6uNeNmLZgCh3OgTbSgmxODXgwxT4k4VR7lYa6ZEGEt69q/0gsTWsVcBq3yNQ==",
+  "dgSpecHash": "E9qBPJx+zyyzeuLVvuq03HiEZ+i0gCyWUsltjXodsIqZMUNiW5UJWLUWRZjUL4rhWM2QVN93Zhqc/vzWl0Xk8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Askblue\\source\\repos\\EventCampaigns\\EventCampaigns\\EventCampaigns.csproj",
+  "projectFilePath": "C:\\Users\\Askblue\\source\\repos\\EventCampaignsAPI\\EventCampaigns\\EventCampaigns.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Askblue\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Askblue\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
